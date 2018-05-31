@@ -7,6 +7,9 @@ build_script:
     - cmd: dotnet pack
     - cmd: dotnet pack -c Release
 
+artifacts:
+    - path: 'src\bin\Release\*.nupkg'
+
 before_deploy:
     - cmd: del "src\package\bin\Debug\*.nupkg"
 
