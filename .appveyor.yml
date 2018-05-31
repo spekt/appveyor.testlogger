@@ -12,6 +12,6 @@ deploy:
     server: https://www.myget.org/F/spekt/api/v3/index.json
     api_key:
         secure: 2C7HbSlU1kcOJ3nzZCpKR97cfWAg/8t38XDf8ywCbJI1ymt93ulfPqT67ugWuMla
-    artifact: ./src/package/bin/Release/*.nupkg
+    artifact: /.*Release.*\.nupkg/
     skip_symbols: true
 
