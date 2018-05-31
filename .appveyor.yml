@@ -8,10 +8,7 @@ build_script:
     - cmd: dotnet pack -c Release
 
 artifacts:
-    - path: 'src\bin\Release\*.nupkg'
-
-before_deploy:
-    - cmd: del "src\package\bin\Debug\*.nupkg"
+    - path: 'src\package\bin\Release\*.nupkg'
 
 deploy:
     provider: NuGet
