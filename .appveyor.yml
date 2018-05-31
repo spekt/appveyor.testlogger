@@ -4,14 +4,17 @@ image: Visual Studio 2017
 clone_depth: 1
 
 build_script:
-  - cmd: dotnet pack
-  - cmd: dotnet pack -c Release
+    - cmd: dotnet pack
+    - cmd: dotnet pack -c Release
+
+before_deploy:
+    - cmd: del ./src/package/bin/Debug/*.nupkg
 
 deploy:
     provider: NuGet
     server: https://www.myget.org/F/spekt/api/v3/index.json
     api_key:
         secure: 2C7HbSlU1kcOJ3nzZCpKR97cfWAg/8t38XDf8ywCbJI1ymt93ulfPqT67ugWuMla
-    artifact: /.*Release.*\.nupkg/
+    artifact: /.*\.nupkg/
     skip_symbols: true
 
