@@ -12,7 +12,7 @@ artifacts:
 
 deploy:
     provider: NuGet
-    server: https://www.myget.org/F/spekt/api/v3/index.json
+    server: https://www.myget.org/F/spekt/api/v2
     api_key:
         secure: 2C7HbSlU1kcOJ3nzZCpKR97cfWAg/8t38XDf8ywCbJI1ymt93ulfPqT67ugWuMla
     artifact: /.*\.nupkg/
