@@ -1,8 +1,8 @@
 # Appveyor Test Logger
 Appveyor logger extensions for [Visual Studio Test Platform](https://gtihub.com/microsoft/vstest).
 
-[![Build Status](https://travis-ci.com/Nipunam/appveyor.testlogger.svg?branch=master)](https://travis-ci.com/Nipunam/appveyor.testlogger)
-[![Build status](https://ci.appveyor.com/api/projects/status/hqurkia2yn77lbba?svg=true)](https://ci.appveyor.com/project/Nipunam/appveyor-testlogger)
+[![Build Status](https://travis-ci.com/spekt/appveyor.testlogger.svg?branch=master)](https://travis-ci.com/spekt/appveyor.testlogger)
+[![Build status](https://ci.appveyor.com/api/projects/status/l2htcwb0v8tyg9uh?svg=true)](https://ci.appveyor.com/project/spekt/appveyor-testlogger)
 
 ## Packages
 | Logger | Nuget Package |
