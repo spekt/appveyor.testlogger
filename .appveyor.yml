@@ -8,7 +8,7 @@ build_script:
     - cmd: dotnet pack -c Release
 
 before_deploy:
-    - cmd: del ./src/package/bin/Debug/*.nupkg
+    - cmd: del "src\package\bin\Debug\*.nupkg"
 
 deploy:
     provider: NuGet
