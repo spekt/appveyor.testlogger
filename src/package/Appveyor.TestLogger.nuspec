@@ -4,10 +4,11 @@
     <id>Appveyor.TestLogger</id>
     <version>$version$</version>
     <title>Appveyor.TestLogger</title>
-    <authors>Faizan2304,ngbrown</authors>
-    <owners>Faizan2304</owners>
-    <projectUrl>https://github.com/Faizan2304/LoggerExtensions</projectUrl>
+    <authors>codito,faizan2304,ngbrown,smadala</authors>
+    <owners>codito,faizan2304,smadala</owners>
+    <projectUrl>https://github.com/spekt/appveyor.testlogger</projectUrl>
     <description>Logger for uploading test result in Appveyor when test is running with "dotnet test" or "dotnet vstest".</description>
+    <licenseUrl>https://github.com/spekt/appveyor.testlogger/blob/master/LICENSE</licenseUrl>
   </metadata>
   <files>
     <file src="Microsoft.VisualStudio.TestPlatform.Extension.Appveyor.TestLogger.dll" target="build\_common\" />
