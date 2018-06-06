@@ -1,8 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="../../scripts/version.props" />
 
   <PropertyGroup>
     <TargetFramework>netstandard1.5</TargetFramework>
     <AssemblyName>Microsoft.VisualStudio.TestPlatform.Extension.Appveyor.TestLogger</AssemblyName>
+    <Version>$(PackageVersion)</Version>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
   
@@ -13,5 +15,4 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.TestPlatform.ObjectModel" Version="15.0.0" />
   </ItemGroup>
-
 </Project>
