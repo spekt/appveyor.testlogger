@@ -9,6 +9,11 @@ Appveyor logger extensions for [Visual Studio Test Platform](https://gtihub.com/
 | ------ | -------------- | ------------------- |
 | AppVeyor | [![NuGet](https://img.shields.io/nuget/v/Appveyor.TestLogger.svg)](https://www.nuget.org/packages/Appveyor.TestLogger/) | [![MyGet Pre Release](https://img.shields.io/myget/spekt/vpre/appveyor.testlogger.svg)](https://www.myget.org/feed/spekt/package/nuget/Appveyor.TestLogger) |
 
+If you're looking for `xunit`, `junit` or `nunit` loggers, visit following repositories:
+* <https://github.com/spekt/xunit.testlogger>
+* <https://github.com/spekt/junit.testlogger>
+* <https://github.com/spekt/nunit.testlogger>
+
 ## Usage
 Appveyor logger can report test results automatically to the CI build. See an example: https://ci.appveyor.com/project/Faizan2304/loggerextensions/build/1.0.24/tests.
 
